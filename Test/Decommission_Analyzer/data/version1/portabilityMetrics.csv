@@ -1,0 +1,12 @@
+Appname,portabilityindex,LOB,cyclomaticscore,maintainabilityindex,appsizevalue,outbounds,inbounds,appcriticality,languagecomplexityscore,stabilityscore
+Cash Manager ,0.529,Financial/Actuarial,4.3,188.181,3,1,1,4,2.74,4
+Cash Manager 2,0.529,Financial/Actuarial,4.3,188.181,3,1,1,4,2.74,4
+Cash Manager Archive View,0.678,Financial/Actuarial,4,189.233,1,0,0,4,3,4
+Cash Manager Upload ,0.755,Financial/Actuarial,4,200.462,4,0,0,4,1.71,4
+PC Dumps SLAS/SLUA/SLPM,0.708,Financial/Actuarial,4.29,194.749,4,0,0,4,2.29,4
+AXAL Mainframe Downloads,0.674,Financial/Actuarial,4,185.618,1,0,0,4,3,4
+Quick Dump ,0.708,Financial/Actuarial,4.29,194.749,4,0,0,4,2.29,4
+Age Analysis ,0.68,Financial/Actuarial,4.13,185.629,2,0,0,4,2.83,4
+Surrenders Database Data Conversion ,0.659,Financial/Actuarial,4.29,183.52,2,0,0,4,3.14,4
+SLPM,0.544,Financial/Actuarial,4.3,194.749,4,1,1,4,2.31,4
+Surrenders SLUA,0.544,Financial/Actuarial,4.3,194.749,4,1,1,4,2.31,4

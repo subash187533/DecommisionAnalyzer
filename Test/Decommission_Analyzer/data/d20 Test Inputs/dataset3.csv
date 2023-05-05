@@ -1,0 +1,46 @@
+S.No,Server Name,Server OS,Server Type,Type of Energy Consumption,Decommissioning Status,Date of Decommissioning
+1,APPAU001MEL065,Windows,On-Premise,Non-Green,To be started,Feb-22
+2,PFINF01L,Linux,On-Premise,Non-Green,In progress,Apr-22
+3,PFINF02L,Linux,On-Premise,Green,Completed,Nov-21
+4,PFINF03L,Linux,On-Premise,Non-Green,To be started,May-22
+5,PFINF04L,Linux,On-Premise,Non-Green,In progress,Jun-22
+6,PFINF05L,Linux,Cloud,Green,Completed,Nov-21
+7,PFINF06L,Linux,On-Premise,Non-Green,To be started,Jul-22
+8,APPAU001MEL065,Windows,On-Premise,Non-Green,In progress,Jul-22
+9,APPAU001MEL066,Windows,On-Premise,Green,Completed,Nov-21
+10,APPAU001MEL067,Windows,On-Premise,Non-Green,To be started,Mar-22
+11,APPAU001MEL068,Windows,Cloud,Green,In progress,Feb-22
+12,APPAU001MEL069,Windows,On-Premise,Non-Green,Completed,Nov-21
+13,PFINF07L,Linux,On-Premise,Non-Green,To be started,Mar-22
+14,PFINF08L,Linux,Cloud,Non-Green,In progress,Mar-22
+15,APPAU001MEL070,Windows,On-Premise,Green,Completed,Nov-21
+16,APPAU001MEL071,Windows,On-Premise,Non-Green,In progress,Dec-21
+17,APPAU001MEL072,Windows,Cloud,Green,In progress,Dec-21
+18,APPAU001MEL073,Windows,On-Premise,Green,In progress,Dec-21
+19,APPAU001MEL074,Windows,On-Premise,Non-Green,In progress,Dec-21
+20,APPAU001MEL075,Windows,On-Premise,Non-Green,In progress,Dec-21
+21,APPAU001MEL076,Windows,Cloud,Green,In progress,Dec-21
+22,APPAU001MEL077,Windows,On-Premise,Non-Green,In progress,Dec-21
+23,PFINF07L,Linux,On-Premise,Non-Green,To be started,Mar-22
+24,PFINF08L,Linux,Cloud,Non-Green,In progress,Mar-22
+25,PFINF09L,Linux,On-Premise,Non-Green,To be started,Mar-22
+26,PFINF10L,Linux,On-Premise,Green,To be started,Mar-22
+27,APPAU001MEL078,Windows,Cloud,Green,To be started,Mar-22
+28,APPAU001MEL079,Windows,On-Premise,Non-Green,To be started,Mar-22
+29,APPAU001MEL080,Windows,Cloud,Green,To be started,Jul-22
+30,APPAU001MEL081,Windows,On-Premise,Non-Green,To be started,Jul-22
+31,APPAU001MEL082,Windows,Cloud,Non-Green,To be started,Jul-22
+32,APPAU001MEL083,Windows,On-Premise,Non-Green,To be started,Jul-22
+33,LFEPH003MNL014,Windows,On-Premise,Non-Green,Not Applicable,Not Applicable
+34,APPAU001MEL078,Windows,Cloud,Green,Not Applicable,Not Applicable
+35,APPAU001MEL079,Windows,Cloud,Green,Not Applicable,Not Applicable
+36,APPAU001MEL080,Windows,Cloud,Non-Green,Not Applicable,Not Applicable
+37,APPAU001MEL081,Windows,Cloud,Green,Not Applicable,Not Applicable
+38,APPAU001MEL082,Linux,On-Premise,Green,Not Applicable,Not Applicable
+39,APPAU001MEL083,Linux,On-Premise,Non-Green,Not Applicable,Not Applicable
+40,APPAU001MEL084,Linux,On-Premise,Non-Green,Not Applicable,Not Applicable
+41,APPAU001MEL085,Linux,On-Premise,Green,Not Applicable,Not Applicable
+42,APPAU001MEL086,Windows,On-Premise,Non-Green,Not Applicable,Not Applicable
+43,APPAU001MEL087,Windows,On-Premise,Non-Green,Not Applicable,Not Applicable
+44,APPAU001MEL088,Windows,On-Premise,Green,Not Applicable,Not Applicable
+45,APPAU001MEL089,Windows,On-Premise,Non-Green,Not Applicable,Not Applicable

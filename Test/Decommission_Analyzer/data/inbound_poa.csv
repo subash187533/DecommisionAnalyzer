@@ -1,0 +1,21 @@
+AppName,sftp,ftp,dbaccess,flatfiles,messaging,manual,total
+Cash Manager ,1,,,,,,1
+Cash Manager 2,1,,,,,,1
+Cash Manager Archive View,,,,,,,0
+Cash Manager Upload ,1,,,,,,1
+PC Dumps SLAS/SLUA/SLPM,1,,,,,,1
+AXAL Mainframe Downloads,1,,,,,,1
+Quick Dump ,1,,,,,,1
+Age Analysis ,,,,,,,0
+Surrenders Database Data Conversion ,1,,,,,,1
+SLPM,1,,,,,,1
+Surrenders SLUA,,,,,,,0
+CKB,7,,7,,,,14
+APR,,,,,,,0
+PPF Hard Disclosure Quotes ,,,,,,,0
+Late Interest,,,,,,,0
+Civil Service Deductions,,,,,,,0
+Direct Debit Mandate,,1,,,,,1
+Cobra,,,,,,,0
+Copernicus,,,,,,,0
+Death Claim Folios,1,,,,,,1

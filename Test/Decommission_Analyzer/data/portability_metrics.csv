@@ -1,0 +1,21 @@
+Appname,portabilityindex,LOB,cyclomaticscore,maintainabilityindex,appsizevalue,outbounds,inbounds,appcriticality,languagecomplexityscore,stabilityscore
+Cash Manager ,0.529,Financial/Actuarial,4.3,188.181,3,1,1,4,2.74,4
+Cash Manager 2,0.529,Financial/Actuarial,4.3,188.181,3,1,1,4,2.74,4
+Cash Manager Archive View,0.678,Financial/Actuarial,4,189.233,1,0,0,4,3,4
+Cash Manager Upload ,0.755,Financial/Actuarial,4,200.462,4,0,0,4,1.71,4
+PC Dumps SLAS/SLUA/SLPM,0.708,Financial/Actuarial,4.29,194.749,4,0,0,4,2.29,4
+AXAL Mainframe Downloads,0.674,Financial/Actuarial,4,185.618,1,0,0,4,3,4
+Quick Dump ,0.708,Financial/Actuarial,4.29,194.749,4,0,0,4,2.29,4
+Age Analysis ,0.68,Financial/Actuarial,4.13,185.629,2,0,0,4,2.83,4
+Surrenders Database Data Conversion ,0.659,Financial/Actuarial,4.29,183.52,2,0,0,4,3.14,4
+SLPM,0.544,Financial/Actuarial,4.3,194.749,4,1,1,4,2.31,4
+Surrenders SLUA,0.544,Financial/Actuarial,4.3,194.749,4,1,1,4,2.31,4
+CKB,0.532,Customer Servicing,1.22,162.35,5,8,14,5,2.86,4
+APR,0.782,Accounts/payments,1.14,162.369,5,4,0,5,2.71,4
+PPF Hard Disclosure Quotes ,1,Calculations (Quotes/illustrations/projections/valuations),0.64,142.682,2,0,0,2,3,4
+Late Interest,1,Policy Servicing,0.43,144.828,1,0,0,3,3,4
+Civil Service Deductions,1,Policy Administration,0.57,141.192,1,0,0,2,3.29,4
+Direct Debit Mandate,1,Policy Administration,0.67,147.336,3,0,0,3,2.63,4
+Cobra,0.872,Communication composition & production,0.67,142.675,2,0,0,4,3.06,4
+Copernicus,0.911,Policy Administration,0.86,152.364,4,0,0,4,2.57,4
+Death Claim Folios,0.989,Policy Administration,0.57,156.036,4,0,0,4,2,4

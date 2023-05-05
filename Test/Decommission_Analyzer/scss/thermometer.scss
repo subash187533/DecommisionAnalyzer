@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+          // Variables
+          $font-family: "PT Sans",
+          sans-serif;
+          $bg-color: #bdc3c7;
+          $main-color: #e74c3c;
+          $main-color-primary: #9b59b6;
+          $border-color: #c0392b;
+          $border-color-primary: #8e44ad;
+          $inner-color: #fff;
+          $inner-color-dimmed: #7f8c8d;
+          $border-rad-outer: 0 16px 16px 0;
+          $border-rad-inner: 0 32px 8px 0;
+
+          // Mixins
+          @mixin progress-value($value) {
+               progress[value="#{$value}"]::-webkit-progress-bar:before {
+                    content: "#{$value}%";
+                    position: absolute;
+                    top: -2px;
+                    left: -40px;
+               }
+          }
+
+          @mixin style-values($step, $max: 100) {
+               $i: 0;
+
+               @while $i <=$max {
+                    @include progress-value($i);
+                    $i: $i + $step;
+               }
+          }
+
+          // Main
+          html,
+          body,
+          div {
+               margin: 0;
+               padding: 0;
+          }
+
+          body {
+               background: $bg-color;
+               font-family: $font-family;
+          }
+
+          .wrapper {
+               margin: 5% auto;
+               width: 500px;
+          }
+
+          .thermometer {
+               position: relative;
+               height: 72px;
+               margin: 15px;
+          }
+
+          .thermometer-body {
+               width: 260px;
+               height: 32px;
+               position: absolute;
+               left: 64px;
+               top: 16px;
+               background-color: $bg-color;
+               border-radius: 0 22px 22px 0;
+               border: 5px solid $border-color;
+
+               .primary & {
+                    border-color: $border-color-primary;
+               }
+
+               border-left: none;
+
+               &:before {
+                    content: ' ';
+                    width: 64px;
+                    height: 64px;
+                    position: absolute;
+                    top: -21px;
+                    left: -64px;
+                    z-index: -1;
+                    background: $main-color;
+                    border-radius: 50%;
+                    border: 5px solid $border-color;
+
+                    .primary & {
+                         background: $main-color-primary;
+                         border-color: $border-color-primary;
+                    }
+
+                    box-shadow: inset 0 0 0 4px $bg-color;
+               }
+          }
+
+          progress[value] {
+               -webkit-appearance: none;
+               -moz-appearance: none;
+               appearance: none;
+               border: none;
+
+               width: 250px;
+               height: 16px;
+               position: relative;
+               top: 5px;
+               left: -1px;
+
+               background-color: $inner-color;
+               color: $inner-color;
+               border-radius: $border-rad-outer;
+
+               &::-webkit-progress-bar {
+                    background-color: $inner-color;
+                    border-radius: $border-rad-outer;
+               }
+
+               &::-webkit-progress-value {
+                    background-color: $main-color;
+
+                    .primary & {
+                         background-color: $main-color-primary;
+                    }
+
+                    border-radius: $border-rad-inner;
+               }
+
+               &::-moz-progress-bar {
+                    background-color: $main-color;
+
+                    .primary & {
+                         background-color: $main-color-primary;
+                    }
+
+                    border-radius: $border-rad-inner;
+               }
+          }
+
+          progress[value="100"] {
+               &::-webkit-progress-value {
+                    border-radius: $border-rad-outer;
+               }
+
+               &::-moz-progress-bar {
+                    border-radius: $border-rad-outer;
+               }
+          }
+
+          @include style-values(25);
+
+          .animated {
+               margin-top: 30px;
+          }
+
+          button {
+               margin-left: 120px;
+               padding: 6px 16px;
+               background-color: $main-color;
+               border: 5px solid $border-color;
+
+               .primary & {
+                    background-color: $main-color-primary;
+                    border-color: $border-color-primary;
+               }
+
+               border-radius: 32px;
+               color: $inner-color;
+
+               &:hover {
+                    color: $border-color;
+
+                    .primary & {
+                         color: $border-color-primary;
+                    }
+               }
+
+               &:disabled,
+               .primary &:disabled {
+                    background-color: $bg-color;
+                    color: $inner-color-dimmed;
+               }
+          }

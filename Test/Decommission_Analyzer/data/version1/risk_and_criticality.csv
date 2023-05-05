@@ -1,0 +1,12 @@
+appname,LOB,riskcriticalityscore,apprevenueimpact,appcriticality,appdatagateway,applegal,appinterface
+Cash Manager ,Financial/Actuarial,4.73,Medium,High,No ,Yes,No
+Cash Manager 2,Financial/Actuarial,4.73,Medium,High,No ,Yes,No
+Cash Manager Archive View,Financial/Actuarial,4.73,Medium,High,No ,Yes,No
+Cash Manager Upload ,Financial/Actuarial,4.73,Medium,High,No ,No,No
+PC Dumps SLAS/SLUA/SLPM,Financial/Actuarial,4.73,Medium,High,No ,No,No
+AXAL Mainframe Downloads,Financial/Actuarial,4.73,Medium,High,No ,No,No
+Quick Dump ,Financial/Actuarial,4.73,Medium,High,No ,No,No
+Age Analysis ,Financial/Actuarial,4.73,Medium,High,No ,Yes,No
+Surrenders Database Data Conversion ,Financial/Actuarial,4.73,Medium,High,No ,No,No
+SLPM,Financial/Actuarial,4.73,Medium,High,No ,Yes,No
+Surrenders SLUA,Financial/Actuarial,4.73,Medium,High,No ,Yes,No

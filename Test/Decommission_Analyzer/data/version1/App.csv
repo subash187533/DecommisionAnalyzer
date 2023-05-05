@@ -1,0 +1,154 @@
+ApplicationName,Type of Application,Application Category,LOB,DeputyOwner,Age,Minimum expected life,user impact,Legal compliance,Single/ Group of Applications ,Appinterface,Dependencies,Implementation,Source code archival,Incoming,Outgoing,No of reports/frequency,Other applications,Physical servers,Third party tools,FTE count,Historical data,Support level,Level of documentation,Ongoing enhancement,Teams knowledge,Business Criticality,Technologies,AppSize ,AppComplexity,DatabaseSize,No of Users
+PMS Policy,Custom Developed,Core System ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Eric Leu,>20 Years,3- 5 Years,High,Yes,Group,"Yes 
+NCCI 
+National Council on Compensation Insurance 
+(Applicable only for Worker's compensation)",Yes,Incremental,Corporate (TMNA) Retention policy of While active +7 Years ,"First Link-DB
+Lockbox Mainframe-FTP/ Flat file
+Bill Review- FTP/ Flat file
+FRR- VSAM File","First Link-DB 
+FSSI ( Company-Outsourced)-FTP
+Application Extender ( 3rd Party)- FTP
+Agency Portal-FTP 
+Data Warehouse- Flat file",200,Yes-Lockbox Mainframe ,1,"Yes
+Docu Merge- Print Page for all loB
+Stream Weaver
+Roots Processes- for RP Policy  
+CA Dispatch
+OM Web Viewer
+ ",6-10 FTE,> 60 Months,Shared,Minimal Documentation,"Yes 
+Rate Filings i.e. adding discount % & Rate Algorithms needs to be added in PMS by Mid March which will be executed by June 1st' 19 ",Has only operational knowledge,Very High,Cobol/ VSAM/ JCL/ CICS/ Easytrieve/SQL Server ,Large,Very High,>100 GB,276
+PMS Daily,Custom Developed,Back End Processing ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Eric Leu,>20 Years,3- 5 Years,High,Yes,Single,"Yes NCCI 
+National Council on Compensation Insurance.
+(Applicable only for Worker's compensation)",No,Incremental,Corporate (TMNA) Retention policy of While active +7 Years ,"First Link-DB
+Lockbox Mainframe-FTP/ Flat file
+Bill Review- FTP/ Flat file
+FRR- Flatfile (VSAM File from GWCC)","First Link-DB 
+FSSI ( Company-Outsourced)-FTP
+Application Extender ( 3rd Party)- FTP
+Agency Portal-FTP 
+Data Warehouse- Flat file",200,Yes-Lockbox Mainframe ,1,"Yes
+Docu Merge- Print Page for all LoB
+Stream Weaver
+Roots Processor- for RP Policy  
+CA Dispatch
+OM Web Viewer",6-10 FTE,> 60 Months,Shared,Minimal Documentation,No,Has operational & business knowledge,Very High,COBOL/ JCL/ CICS/ Easytrieve,Very Large,Very High,>100 GB,0
+PMS Reports,Custom Developed,Back End Processing ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Eric Leu,>20 Years,3- 5 Years,Very High,Yes,Single,No,Yes,Incremental,Corporate (TMNA) Retention policy of While active +7 Years ,"First Link-DB
+Lockbox Mainframe-FTP/ Flat file
+Claims Bill Review- FTP/ Flat file
+FRR- VSAM File(File from GWCC)","Data Warehouse- Flat file 
+CA Dispatch",200,Yes-Lockbox Mainframe ,1,Yes ( CA Dispatch ) ,6-10 FTE,> 60 Months,Shared,Minimal Documentation,No,Has operational & business knowledge,Very High,Cobol/ VSAM/ JCL/ CICS/ Easytrieve/SQL Server ,Medium,Medium,>100 GB,~100
+NCCI Unit Stat,Custom Developed,Back End Processing ,Worker Comp,Eric Leu,>20 Years,1-2 Years,Medium,Yes,Single,Yes,Yes,Incremental,Corporate (TMNA) Retention policy of While active +7 Years ,"PMS--PMR & LRA--PES---NCI 
+(Where Unit Stat Report is generated) (Flatfile)","L Drive (Flat files)
+GW PC (FTP)/ GW CC",10,Yes-Lockbox Mainframe/ PMS ,1,No,6-10 FTE,> 60 Months,Shared,Outdated Documentation,No,Has only operational knowledge,Medium,Cobol/ VSAM/ JCL/ CICS/ Easytrieve/SQL Server ,Medium,Medium,>100 GB,15
+Lockbox Mainframe,Custom Developed,Back End Processing  ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Eric Leu,>20 Years,3-5 Years,Low,Yes,Single,No,Yes ( Dependent on Bank ) ,Incremental,Corporate (TMNA) Retention policy of While active +7 Years ,First Hawaiian Bank--Lockbox thru FTP,Lockbox to PMS thru -Flatfile,2,Yes-PMS,1,No,6-10 FTE,> 60 months ,Shared,Outdated Documentation,No,Has only operational knowledge,Medium,Cobol/ VSAM/ JCL/ CICS/ Easytrieve/SQL Server ,Medium,Medium,>100 GB,NA
+Hawaii Department of Labor and Industrial Relations(WCPOLS),Custom Developed,Back End Processing  ,Worker Comp,Aswin,<10 Years,<1 Year,Very Low,Yes,Single,Yes (NCCI),Yes,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,FTP,Hawaii Department of Labor and Industrial Relations(WCPOLS) sends the information to NCCI through FTP.,1,Yes-PMS,1,No,6 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,Medium,Cobol/ VSAM/ JCL/Easytrieve,Medium,Low,>100 GB,0
+First Recap Review,Custom Developed,Back End Processing  ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Aswin,>20 Years,3-5 Years,High,Yes,Single,No,Yes (CC & PMS),Incremental,Corporate (TMNA) Retention policy of While active +7 Years ,File Sharing(VSAM Master files),Guidewire Claim Center-MQ,30,Yes-PMS,1,No,6-10 FTE,> 60 Months,Shared,Well Documented,No,Has only operational knowledge,Medium,Cobol/ VSAM/ JCL/EasytrieveCICS,Medium,Medium,>100 GB,NA
+1099 Extract,Custom Developed,Back End Processing ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Eric Leu,>20 Years,3-5 Years,Very High,Yes,Single,No,Yes ( 1099 Pro ) ,Incremental,Corporate (TMNA) Retention policy of While active +7 Years ,SPI-Flatfile/ Claims thru FTP/ PMS thru Flat File,1099Pro ( 3rd Party ) ,0,Yes-PMS ,1,Yes,6-10 FTE,> 60 Months,Shared,Well Documented,NA,Has only operational knowledge,Very High,Cobol/ JCL/ Easytrieve,Medium,Medium,>100 GB,0
+Account Current System ,Custom Developed,Back End Processing ,Workers Comp & Commercial LoB,Chris Bopp,3 - 5 Year,3 - 5 Years,Medium,Yes,Single,No,Yes,Incremental,Corporate (TMNA) Retention policy of While active +7 Years ,PMS,None,No,"13
+1. Vehicle ID Cards
+2. Policy Downloads
+3. AgencyPortal
+4. Agency Support Center (ASC)/
+5. BPS
+6. Cherwell
+7. Event/ 
+8. Ficoh_authorize/ 
+9. FirstLink
+10. Helu
+11. RCI
+12. JIRAREPORT
+13. 1099 Pro",1,Jasper J-Library used for reporting ,1-2 FTE,> 60 Months,Not Dedicated,Minimal Documentation,No(Pay Plan few years Ago but fixed),Has only operational knowledge,High,Ruby on Rails,Medium,Medium,70-100 GB,4
+ApplicationXtender (v7),3rd Party,Storage Repository,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Chris Bopp,> 20 Years,3-5 Years,High,Yes,Single,No,Yes,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,"PMS Policy/ PMS Claim/ PMS Billing
+Scanning is an input to AppX. Lotus Notes / Output of PMS/ Printing request for agencies/ Underwriting ","Lot of automated extracts. On Demand enquiry.
+ Agency Support Center ( Enquiry to AppX)
+Renewal Transmittal ",Multiple Reports,0,5,Centera Server (Which handles Unstructured data),1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,Very High,Win32,Medium,High,10-30 GB,~ 175 
+Claims Pharm Extract,Custom Developed,Back End Processing,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Chris Bopp,11-20 Years,3-5 Years,Low,Yes,Single,No,Yes,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,GW CC & Lotus Notes ,No,NA,No,1,Yes(Core FTP Utility),1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,Medium,Ruby On Rails,Medium,Low,>100 GB,NA
+ISO Stat (# 4 Components ),Custom Developed,Back End Processing ,"Personal & Commercial LoB
+",Eric Leu,>20 Years,3-5 Years,Medium,Yes,Group,Yes,Yes,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,PRA/ LRA,CEP/ PLS/ PAS thru FTP,12,Yes-Lockbox Mainframe ,1,No,1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,Medium,Cobol/ VSAM/ CA7 Scheduler ,Medium,Medium,>100 GB,2
+PMS Claims,Custom Developed,Back End Processing ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Eric Leu,11-20 Years,3-5 Years,Medium,Yes,Group,Yes,Yes,Incremental,Corporate (TMNA) Retention policy of While active +7 Years ,PIF,,NA,Yes-Lockbox Mainframe ,1,No,1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,Very High,VSAM/ Cobol/ Assembler ,Medium,Medium,>100 GB,NA
+PMS Monthly,Custom Developed,Back End Processing,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Eric Leu,> 20 Years,3-5 Years,Medium,Yes,Group,Yes(PMS),Yes,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,PMS- Flat Files,SAP(GL),0,No,NA,No,1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,High,Cobol/ VSAM/ Easytrieve ,Medium,Medium,>100 GB,20-30 
+Print VID,Custom Developed,Print Processing ,Commercial Auto ,Jeremy,3-5 Years,3- 5 Years,Very Low,No,Single,No,No,Big Bang ,Corporate (TMNA) Retention policy of While active +7 Years ,No Incoming ,No Outgoing ,No Reports ,2,"0
+(Uses Virtual Server)",No,1-2 FTE,Not Applicable,Dedicated,Minimal Documentation,No,Has only operational knowledge,Low,ASP.Net web forms C# hosted on IIS Web Server,Medium,Very Low,No DB ,2
+SPI (# 3 Components ),Acquired,Core System ,BOP & FAP ,Connie,11-20 Years,3-5 Years,High,Yes,Group ,Yes,Yes,Incremental,Corporate (TMNA) Retention policy of While active +7 Years ,Sales Portal SPI for Consumer Quotes & Service Portal for Insurers - FTP ,Lockbox,0,No,1,"Authorized. Net for Credit Card for BOP LoB 
+Lexis Nexis 
+PackBlu for Claims",1-2 FTE,> 60 Months,Dedicated,Minimal Documentation,No,Has operational & business knowledge,Very High,Hosted on ISCS which is now taken over by Guidewire ,Medium,Very High,>100 GB,~ 1000
+PMS Billing,Custom Developed,Back End Processing ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Eric Leu,> 20 Years,> 5 Years,Medium,Yes,Single ,Yes -PMS ,Yes,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,PMS(Docu Merge/ Stream Weaver/ CA Dispatch/ Roots Processor),FSSI ( For actual printing & mailing of dec pages ) ,NA,No,Yes,Docu Merge/ Stream Weaver/ CA Dispatch/ Roots Processor,1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,Very High,Cobol/ CICS/ Sql Server/ Easytrieve/ Assembler ,Medium,Very High,>100 GB,NA
+ACH Uploader,Custom Developed,Back End Processing ,BOP & FAP,Chris Bopp,11-20 Years,3-5 Years,Low,No,Single,Yes/SPI,Yes,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,SPI- FTP/ Ldrive -Acts as Archive,FBH ( First Hawaiian Bank )- SFTP,0,No,1,No,1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,Medium,VB.Net,Medium,Very Low,10-30 GB,4
+"First Link 
+(# 2 Components )",Custom Developed,Front End,"1. Commercial Auto 
+2. Homeowner
+3. Dwelling Fire
+4. Hurricane
+5. First Select Polices (FSP) 
+6. Workers Comp",Ryan Rolland ,6-10 Years,Not Known,Very High,No,Group ,No,Yes,Incremental,Corporate (TMNA) Retention policy of While active +7 Years ,None ,PMS,NA,"1. Vehicle ID Cards
+2. Policy Downloads
+3. Agency Portal
+4. Agency Support Center (ASC)/
+5. BPS
+6. Cherwell
+7. Event/ 
+8. Ficoh_authorize/ 
+9. ACS
+10. Helu
+11. RCI
+12. JIRAREPORT
+13. 1099 Pro",1,No,<1 FTE,> 60 Months,Dedicated,Well Documented,Yes,Has only operational knowledge,Very High, Jruby/ Tomcat Apache server for security ,Medium,Very Low,10-30 GB,1050
+Auditor's Report,Custom Developed,Back End Processing ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Eric Leu,>20 Years,3-5 Years,Very Low,Yes,Single,No,Yes,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,PMS-Flat File,No,6,No ,No,No,1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,High,JCL/ Easytrieve,Medium,Low,>100 GB,2
+Agency Notifier,Custom Developed,Back End Processing ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Ryan Rolland ,11-20 years,Not Known,Low,No,Single,No,Yes(AppX/ Data Warehouse),Incremental,Corporate (TMNA) Retention policy of While active +7 Years . Source code is is kept in BitBucket,PMS DataWarehouse- FTP,Agency Support Center,3,Renewal Transmittal/ Claims Bill Review/ Authorized .Net for Credit Card/ Packable/ FICOH Authorized for Auto Payment Posting in Mainframe,1,Yes,<1 FTE,Not Applicable,Dedicated,Well Documented,No,Has only operational knowledge,Low,Cobol/VSAM/ Easytrieve/ SQL Server/ Java 8/ SMTP,Medium,Very Low,>100 GB,679
+Lockbox Server,Custom Developed,Back End Processing ,"Personal & Commercial LoB
+ (Includes BOP & FAP )",Chris Bopp,6-10 Years,3-5 Years,Low,No,Single,Yes(External interface to FHB ),No,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,FHB-FTE,PMS-Flat file,0,No,1,No,1-2 FTE,Not Applicable,Shared,Minimal Documentation,No,Has only operational knowledge,Medium,SLQ Server ,Medium,Medium,No DB ,3
+Positive Pay,Custom Developed,Interface ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Eric Leu,11-20 Years,> 5 Years,Medium,No,Single,PMS/ SPI,Yes,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,PMS & SPI,FHB- FTP,0,0,0,No,1-2 FTE,Not Applicable,Shared,Minimal Documentation,No,Has only operational knowledge,Medium,Not Required ,Medium,Medium,No DB ,3
+Policy Download,Custom Developed,Format Convertor  ,Personal Lines LoB & FAP from SPI ,Chris Bopp,11-20 Years,3-5 Years,High,Yes,Single,Yes(PMS & SPI),Yes,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,PMS- Flatfile/ SPI-XML  ,First Link-FTP & Agency Portal- DB Access ,0,"13 
+1. Vehicle ID Cards
+2. ACS
+3. Agency Portal
+4. Agency Support Center (ASC)/
+5. BPS
+6. Cherwell
+7. Event/ 
+8. Ficoh_authorize/ 
+9. FirstLink
+10. Helu
+11. RCI
+12. JIRAREPORT
+13. 1099 Pro",1,Yes,1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,High,"Ruby on Rails & Python 
+",Medium,Very Low,30-70 GB,15 to 20
+Vehicle ID,Custom Developed,Print Processing ,Personal & Commercial Auto ,Chris Bopp,>20 Years,3-5 Years,Very Low,No,Single,Yes(PMS),Yes,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,PMS,None,0,"4
+1. FICOH Intranet 
+2. PrintVid
+3. icalendar/ 
+4. HR Utility",2,No,1-2 FTE,Not Applicable,Shared,Minimal Documentation,Yes,Has only operational knowledge,Very Low,ASP.Net/ SQL DB ,Medium,Very Low,<10 GB,2
+Bond Portfolio,Custom Developed,Performance Measurement ,Bonds & Surity LoB,Chris Bopp,11-20 Years,3-5 Years,Low,Yes,Single,Yes(PMS),Yes,Not Known,Corporate (TMNA) Retention policy of While active +7 Years ,PMS- Flatfile,BPS Database/ Lotus Notes,0,0,0,No,1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,Medium,Ruby on Rails/ SQL DB ,Medium,Low,<10 GB,4
+Comparative Business,Custom Developed,Back End Processing ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Eric Leu,11-20 Years,3-5 Years,Low,No,Single,No,Yes,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,LRA & PRA,No Outgoing,NA,No,1,No,1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,Medium,MF Cobol/ VSAM ,Medium,Low,>100 GB,NA
+ERMX,Custom Developed,PDF Creator ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Chris Bopp,11-20 Years,3-5 Years,Low,No,Single,No,Yes,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,PMS,AppExtender-DB Access & FSSI-FTP,0,No ,3,Yes,1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,Medium,C#,Medium,Medium,<10 GB,0
+KSH Receivables,Custom Developed,Back End Processing  ,"Personal & Commercial LoB
+( Does not include BOP & FAP )",Eric Leu,11-20 Years,3-5 Years,Very High,Yes,Single,No,Yes(PMS),Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,PMS thru Flatfile,SAP thru Informatica  / ASC thru FTP,NA,No,1,No,1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,High,COBOL/ Easytrieve/CICS Screens,Medium,Medium,30-70 GB,3
+Lotus Notes (# 4 Components),Custom Developed,Document Composition & Management ,WorkComp/ BOP/ FAP/ TDI/ JUP/ Bond & Surity LoB ,Chris Bopp,>20 Years,>5Years,Very High,Yes ,Group,"Yes 
+PMS & SPI ","Yes
+PMS",Incremental,Corporate (TMNA) Retention policy of While active +7 Years ,New Claims Input from emails/ Fax/ Phone Call & Hardcopy (All Channels ) ,"Automated Notification thru emails
+MS Word ( Doc Composition )
+AppEx ( Doc Management ) thru DB
+Pharmacy Benefit Managers thru STFP ( Batch/Daily)
+MMSEA ( Batch/Monthly/Quarterly) thru encryption & Manual Upload ",NA,No,2,No,3 -5 FTE,> 60 Months,Shared,Minimal Documentation,No,Outdated Documentation ,Very High,Lotus Notes,Medium,High,>100 GB,~120
+Kofax ,3rd Party,Scanning Application,"Personal & Commercial LoB
+ (Includes BOP & FAP )",Chris Bopp,>20 Years,3-5 Years,Very Low,No ,Single ,Yes,Yes,NA,NA,Guidewire Claims ,None,0,NA,2 ( Kofax app Server & Kofax DB Server ) ,No,<1 FTE,> 60 Months,Shared,Minimal Documentation,NA,Has only operational knowledge,Medium,Not Required ,Medium,Medium,<10 GB,~100
+Claims Bill Review ,Custom Developed,Interface ,Worker Comp & Medical LoB,Eric Leu,>20 Years,3-5 Years,Very Low,No,Single ,No,PMS Data warehouse,Big-Bang,Corporate (TMNA) Retention policy of While active +7 Years ,PACBLU/ MATRIX thru FTP ( 3rd party firms ),DW/ PACBLU/ MATRIX thru FTP,0,No,No,No,<1 FTE,Not Applicable,Shared,Minimal Documentation ,No,Has only operational knowledge,Medium,Not Required ,Medium,Low,<10 GB,100
+Expression ,3rd Party,Document Composition ,Worker Comp,Jim Schardt/Toshi/Vijay ,11-20 Years,1-2 Years,Medium,No,Single ,Guidewire CC,Guidewire CC,Big Bang,NA,Gudiewire CC- Webservice MQ,Gudiewire CC- Webservice MQ,0,Other Apps in TMNA Portfolio ,1,Yes  ,3 -5 FTE,Not Applicable,Shared,Minimal Documentation ,No,Has operational & business knowledge,Medium,MS Sql Database/ MS Word Structure,Medium,Medium,No DB ,~120
+Argonaut RiskLink Extracts,Custom Developed,Interface ,Hurricane LoB ( Access ) ,Eric Leu,>20 Years,3-5 Years,Very Low,Yes,Single,ISO Stat Reporting ,PMS,NISS ( External ) thru FTP,Corporate (TMNA) Retention policy of While active +7 Years ,PMS ( PIF ) thru Flatfile,NISS (External body )thru FTP,0,No,0,No,1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,Medium,Easytrieve,Medium,Low,<10 GB,0
+Accident Loss Summary,Custom Developed,Back End Processing  ,WorkerComp & Commercial Auto,Eric Leu,>20 Years,3-5 Years,Medium,Yes,Group ,PMS,PMS,Big Bang,Corporate (TMNA) Retention policy of While active +7 Years ,PES- Flatfile,None,No,No,No,Yes,1-2 FTE,> 60 Months,Shared,Minimal Documentation,No,Has only operational knowledge,Medium,Cobol/ VASAM ,Medium,Low,<10 GB,2

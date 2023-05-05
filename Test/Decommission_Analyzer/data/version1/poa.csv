@@ -1,0 +1,191 @@
+Applications,TargetApplication,LOB
+CORRESPONDENCE MANAGER,CFE + ENGAGE1/DOC1,Communication composition & production
+ADC CORRESPONDENCE MANAGER,CFE + ENGAGE1/DOC1,Communication composition & production
+Unit Linked CRP,CFE + ENGAGE1/DOC1,Calculations (Quotes/illustrations/projections/valuations)
+FASTER,CFE,Banking/Payments 
+CFE,Suspense Alloc + FASTER,Banking/Payments 
+Suspense Alloc,CFE,Banking/Payments 
+CFE,Suspense Alloc + FASTER,Banking/Payments 
+CKB,CFE,Customer Relationship Management 
+CFE,Phoenix Quotes + VIP,Customer Relationship Management 
+VIP ,CFE,Calculations (Quotes/illustrations/projections/valuations)
+CFE,Phoenix Quotes + VIP,Calculations (Quotes/illustrations/projections/valuations)
+CEB Renewals,CFE,Communication composition & production
+CFE,Phoenix Quotes + VIP,Communication composition & production
+APR,CFE,Banking/Payments 
+CFE,Payment Requisitions,Banking/Payments 
+COMPANY LEVEL,CFE,Workflow management
+CFE,Servicing Processes,Workflow management
+DEPARTMENT  LEVEL,CFE,Workflow management
+CFE,Servicing Processes,Workflow management
+SIMPLE BOOKIN,CFE,Workflow management
+CFE,Servicing Processes,Workflow management
+TEAM MEMBER,CFE,Workflow management
+CFE,Servicing Processes,Workflow management
+TEAM LEADER ,CFE,Workflow management
+CFE,Servicing Processes,Workflow management
+OUTSTANDING EFFORT,CFE,Workflow management
+CFE,Servicing Processes,Workflow management
+Apex,CFE,Calculations (Quotes/illustrations/projections/valuations)
+CFE,Servicing Processes,Calculations (Quotes/illustrations/projections/valuations)
+Express,CFE,Calculations (Quotes/illustrations/projections/valuations)
+CFE,Servicing Processes,Calculations (Quotes/illustrations/projections/valuations)
+Ultra,CFE,Calculations (Quotes/illustrations/projections/valuations)
+CFE,Servicing Processes,Calculations (Quotes/illustrations/projections/valuations)
+AIT,CFE,Agent and Intermediary Management
+CFE,Servicing Processes,Agent and Intermediary Management
+FEP NE,CFE,Policy Administration
+CFE,Servicing Processes,Policy Administration
+GPP NE ,CFE,Policy Administration
+CFE,Servicing Processes,Policy Administration
+FRIP NB ,CFE,Policy Administration
+CFE,Servicing Processes,Policy Administration
+SP ASPs,CFE,Policy Administration
+CFE,Servicing Processes,Policy Administration
+Sub Accounted NB,CFE,Policy Administration
+CFE,Servicing Processes,Policy Administration
+ULL Servicing (ASPs) ,CFE,Policy Administration
+CFE,Servicing Processes,Policy Administration
+ULL servicing (Claims),CFE,Policy Administration
+CFE,Servicing Processes,Policy Administration
+FRIP servicing    ,CFE,Policy Administration
+CFE,Servicing Processes,Policy Administration
+CPPM,CFE,LOB Information Not Available
+CFE,Servicing Processes,LOB Information Not Available
+PAMI -  Maintenance,CFE,Workflow management
+CFE,Servicing Processes,Workflow management
+PAMI - Work Allocator,CFE,Workflow management
+CFE,Servicing Processes,Workflow management
+EDI SECURITY,CFE,redundant
+CFE,Servicing Processes,redundant
+EDI FB New Business ,CFE,redundant
+CFE,Servicing Processes,redundant
+SALESCHANNEL ,CFE,redundant
+CFE,Servicing Processes,redundant
+AVR Reminders,CFE,redundant
+CFE,Servicing Processes,redundant
+MILESTONE HEALTHCHECK,CFE,redundant
+CFE,Servicing Processes,redundant
+SPUDULIKE ,To be REMOVED,redundant
+Archiving,To be REMOVED,LOB Information Not Available
+MIS Data Conv,To be REMOVED,LOB Information Not Available
+Current Claims Values,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+Unitlinked surrender values     ,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+Bonus Program   ,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+FRA renewal pack,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Communication composition & production
+DEP DIS quotes  ,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+Late Interest      ,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+PPF Hard disclosure quotes (C++),CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+Builder System ,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+Builder System ,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+Builder System ,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+PBP srd calcs   ,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+Conventional RAP,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+GPP Renewal Pack,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+Late Interest (BOE)     ,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+PBP to FEP - FRG Switch,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+MPP Sums Assured,CFE + ENGAGE1/DOC1 + processess from CKB and METRICS,Calculations (Quotes/illustrations/projections/valuations)
+Cash Manager,Cash Manager Replacement,Financial/Actuarial
+Cash Manager Upload,Cash Manager Replacement,Financial/Actuarial
+Quick Dump,Cash Manager Replacement,Financial/Actuarial
+Surrenders Database Data Conversion,Cash Manager Replacement,Financial/Actuarial
+Surrenders SLUA,Cash Manager Replacement,Financial/Actuarial
+Cash Manager 2,Cash Manager Replacement,Financial/Actuarial
+PC Dumps SLAS/SLUA/SLPM,Cash Manager Replacement,Financial/Actuarial
+Age Analysis,Cash Manager Replacement,Financial/Actuarial
+SLPM,Cash Manager Replacement,Financial/Actuarial
+Cash Manager Archive View,Cash Manager Replacement,Financial/Actuarial
+AXAL Mainframe Downloads,Cash Manager Replacement,Financial/Actuarial
+Alpha Database ,Re-Host into Captia Estate,Financial/Actuarial
+Re-Host into Captia Estate,Alpha Database (T),Financial/Actuarial
+FATCA Crown DB,Re-Host into Captia Estate,Regulatory and Tax reporting 
+Re-Host into Captia Estate,Alpha Database (T),Regulatory and Tax reporting 
+Pension Savings Statements,Re-Host into Captia Estate,Regulatory and Tax reporting 
+Re-Host into Captia Estate,Pension Savings Statements (T),Regulatory and Tax reporting 
+P&R Database,Re-Host into Captia Estate,Policy Administration
+Re-Host into Captia Estate,P&R Database (T),Policy Administration
+TPR  Contributions DB,Re-Host into Captia Estate,Policy Administration
+Re-Host into Captia Estate,TPR  Contributions DB (T),Policy Administration
+Civil Service Deductions ,Re-Host into Captia Estate,Policy Administration
+Re-Host into Captia Estate,Civil Service Deductions (T),Policy Administration
+Private Pension Funds,Re-Host into Captia Estate,Policy Administration
+Re-Host into Captia Estate,Private Pension Funds (T),Policy Administration
+Private Pension Funds,Re-Host into Captia Estate,Policy Administration
+Re-Host into Captia Estate,Private Pension Funds (T),Policy Administration
+Private Pension Funds,Re-Host into Captia Estate,Policy Administration
+Re-Host into Captia Estate,Private Pension Funds (T),Policy Administration
+PT Fees (ITO),Re-Host into Captia Estate,Policy Administration
+Re-Host into Captia Estate,PT Fees (ITO) (T),Policy Administration
+Reassurance Admin(Ceded)  ,Re-Host into Captia Estate,Financial/Actuarial
+Re-Host into Captia Estate,Reassurance Admin(Ceded)  (T),Financial/Actuarial
+Reassurance Admin(Retro ,Re-Host into Captia Estate,Financial/Actuarial
+Re-Host into Captia Estate,Reassurance Admin(Retro  (T),Financial/Actuarial
+Swiss Re Life & Health Sure,Re-Host into Captia Estate,Financial/Actuarial
+Re-Host into Captia Estate,Swiss Re Life & Health Sure (T),Financial/Actuarial
+Capita India LIFE System,To Be Decided,LOB Information Not Available
+Capita India PENSION System   ,To Be Decided,LOB Information Not Available
+GOAF,PAS - Eire GOF direct Policies,Policy Administration
+PAS - Eire GOF direct Policies,GOAF (T),Policy Administration
+John Lewis,COMPASS,Policy Administration
+John Lewis,COMPASS,Policy Administration
+John Lewis,COMPASS,Policy Administration
+John Lewis,COMPASS,Policy Administration
+GOAF,COMPASS,Policy Administration
+RIMPS,COMPASS,Policy Administration
+AEL TIP ,COMPASS,Policy Administration
+Death Claims Folios ,Decommission as part of RPA enabler & Climate Death claim process,Policy Administration
+Customer Complaints,SUSTAIN,Complaints
+Customer Complaints System,SUSTAIN,Complaints
+Complaints Database (Business Risk),SUSTAIN,Complaints
+Complaints Database (Customer Service)    CMS (ITO),SUSTAIN,Complaints
+PW3 ,CFE,Policy Administration
+CFE,Servicing Processes,Policy Administration
+Direct Debit Mandate ,CFE,Policy Administration
+CFE,Servicing Processes,Policy Administration
+DMAC ,CFE,Policy Administration
+CFE,Servicing Processes,Policy Administration
+Essbase - Call Centre Database,Data & BI in Capita Estate,Data Analytics/BI
+Essbase CSMTO,Data & BI in Capita Estate,Data Analytics/BI
+Copernicus ,Re-Host into Captia Estate,Policy Administration
+Re-Host into Captia Estate,Copernicus (T),Policy Administration
+QED ,Re-Host into Captia Estate,Policy Administration
+Re-Host into Captia Estate,QED (T),Policy Administration
+Prometheus,Re-Host into Captia Estate,Financial/Actuarial
+Re-Host into Captia Estate,Prometheus (T),Financial/Actuarial
+Markus,Re-Host into Captia Estate,Financial/Actuarial
+Re-Host into Captia Estate,Markus (T),Financial/Actuarial
+App Config / Printer Selection program,Aviva Steria Support,LOB Information Not Available
+SSO Password Control,Rumba,LOB Information Not Available
+Aviva Steria Legacy Support,Aviva Steria Support,LOB Information Not Available
+PCOMM (Aviva),Rumba,LOB Information Not Available
+NMF Daily Download,"GIS, C:OZ",Policy Administration
+ASP Download,"GIS, C:OZ",Policy Administration
+CEB Upload,"GIS, C:OZ",Policy Administration
+Contribution Mananger (replacing Sun Life),"GIS, C:OZ",Policy Administration
+List & chq V2 incl Auto prt,"GIS, C:OZ",Policy Administration
+Annuity Comparitor (Aviva) ,To REMAIN,Calculations (Quotes/illustrations/projections/valuations)
+Aries Pensions Illustrations (Aviva),To REMAIN,Calculations (Quotes/illustrations/projections/valuations)
+Suntrust System,To REMAIN,Policy Administration
+e2e (aka CDQ),To REMAIN,redundant
+NLR,To REMAIN,redundant
+e2e integrity reporting   NLR,To REMAIN,redundant
+Clawback,To REMAIN,Commissions
+Commission System (CDI) (ITO),To REMAIN,Commissions
+Willow MI (ITO),To REMAIN,Commissions
+Dovecote (ITO),To REMAIN,Commissions
+Transvas Profiler (TVAS) (ITO) ,To REMAIN,LOB Information Not Available
+Hummingbird exceed (ITO) (opentext) ,To REMAIN,LOB Information Not Available
+Questor (Infoquest) +SAS (ITO),To REMAIN,LOB Information Not Available
+Protection G2 (ITO),To REMAIN,LOB Information Not Available
+Cabot (outputs?),ENGAGE1,Communication composition & production
+Cobra,ENGAGE1 / DOC1,Communication composition & production
+Cobra - missing docs spreadsheet (steria),ENGAGE1 / DOC1,Data Analytics/BI
+KingCobra ,ENGAGE1 / DOC1,Communication composition & production
+GoDaddy Spreadsheet ,ENGAGE1 / DOC1,Data Analytics/BI
+Cobra MI,ENGAGE1 / DOC1,Data Analytics/BI
+Document Information Database(DIDB),ENGAGE1 / DOC1,Communication composition & production
+Correspondence Controller  Desktop,ENGAGE1 / DOC1,Communication composition & production
+AIA,To REMAIN,Policy Administration
+Adtrack,To REMAIN,Policy Administration
+Dresden Bank Portal,To REMAIN,Banking/Payments 
+Experian Payment Gateway/BACS,To REMAIN,Banking/Payments 

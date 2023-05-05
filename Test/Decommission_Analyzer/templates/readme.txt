@@ -1,0 +1,1 @@
+To view these pages, move any of the pages to the parent directory and open them respectively.
